@@ -1,0 +1,9 @@
+[copr:copr.fedorainfracloud.org:eballetbo:cs9-ti-fw]
+name=Copr repo for cs9-ti-fw owned by eballetbo
+baseurl=https://download.copr.fedorainfracloud.org/results/eballetbo/cs9-ti-fw/centos-stream+epel-next-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/eballetbo/cs9-ti-fw/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
